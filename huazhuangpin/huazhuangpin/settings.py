@@ -24,7 +24,7 @@ SECRET_KEY = '=arqwkp#cs1aey81-_*8-%r93jv+$julfw=&#bibrjtay4zq&1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['huazhuangpin.test.utools.club','127.0.0.1']
 
 # Application definition
 
