@@ -20,13 +20,14 @@ shop_data = df.groupby("shop_brand", as_index=False).agg(
     count=pd.NamedAgg(column="id", aggfunc="count", ))
 shop_data = shop_data.sort_values(by="count", ascending=False)  # 排序
 shop_brand_list = list(shop_data['shop_brand'][:10])
+print(shop_brand_list)
 
 # 对商品功能进行分组 1
 shop_category_1 = df.groupby("shop_category_1", as_index=False).agg(
     count=pd.NamedAgg(column="id", aggfunc="count", ))
 shop_category_1 = shop_category_1.sort_values(by="count", ascending=False)
 shop_category_1_list = list(shop_category_1['shop_category_1'][:10])
-# print(shop_category_1_list)
+print(shop_category_1_list)
 
 # 对商品功能进行分组 2
 shop_category_2 = df.groupby("shop_category_2", as_index=False).agg(

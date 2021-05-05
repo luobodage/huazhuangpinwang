@@ -132,6 +132,7 @@
       <workItem from="1616467617325" duration="3532000" />
       <workItem from="1616637049110" duration="611000" />
       <workItem from="1616671863210" duration="703000" />
+      <workItem from="1618916228056" duration="100000" />
     </task>
     <servers />
   </component>
@@ -148,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/huazhuangpin$scratch_2.coverage" NAME="scratch_2 覆盖结果" MODIFIED="1616304639487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />

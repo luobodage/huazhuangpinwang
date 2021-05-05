@@ -60,6 +60,6 @@ class HuazhuangpinPipeline:
     #     data['多少人爱用'] = item['shop_love']
     #     data['多少评论'] = item['shop_comment_amount']
     #     data['评论内容'] = item['shop_comment']
-    #     data.to_sql('hzp_data', con=connect.engine, if_exists='append', index=False)
+    #     data.to_sql('hzp_data', con=connect.engine, if_exists='append', app=False)
     #     print(data.head())
     #     return item

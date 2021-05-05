@@ -24,11 +24,13 @@ SECRET_KEY = '=arqwkp#cs1aey81-_*8-%r93jv+$julfw=&#bibrjtay4zq&1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['huazhuangpin.test.utools.club','127.0.0.1']
+ALLOWED_HOSTS = ['huazhuangpin.test.utools.club', '127.0.0.1']
 
 # Application definition
-
+SIMPLEUI_LOGIN_PARTICLES = False
+SIMPLEUI_LOGO = 'https://luoboovovimages.oss-cn-beijing.aliyuncs.com/img/hzp_logo.png'
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

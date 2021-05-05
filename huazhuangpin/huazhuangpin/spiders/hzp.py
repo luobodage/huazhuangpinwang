@@ -22,7 +22,7 @@ class HzpSpider(scrapy.Spider):
         hzp_title = response.xpath('//dl[@class=\'brandsWraper\']/dd/div/div[2]/a/@href').extract()
         for index, href in enumerate(hzp_href):
             # item['hzp_href'] = href
-            # item['hzp_title'] = hzp_title[index]
+            # item['hzp_title'] = hzp_title[app]
             print(href)
             yield scrapy.Request(url=href, callback=self.parse1)
         # return item
